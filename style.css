@@ -94,7 +94,7 @@ header{
     margin: 0px 0px 30px 0px;
 }
 
-.party-button{
+.primary-button{
     border: white solid 3px;
     background-color: transparent;
     color:white;
@@ -103,7 +103,7 @@ header{
     border-radius: 8px;
     padding: 16px 32px;
 }
-.party-button:hover{
+.primary-button:hover{
     background-color: white;
     color: #070211;
     font-size: 20px;
@@ -111,4 +111,43 @@ header{
 }
 .year-image{
     padding: 68px 100px 67px 90px;
+}
+
+.location{
+    margin-top: 120px;
+    background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    background-size: cover;
+    height: 482px;
+    border-radius: 16px;
+}
+
+.location-content{
+    text-align: center;
+    padding: 100px 386px 214px 385px;
+    color:#070211;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-decoration: none;  
+}
+
+.location-content > h2{
+    margin: 0px 0px 15px 0px;
+}
+
+.loc-text{
+    color: #FF0000;
+    padding-right: 10px;
+}
+
+.location-button{
+    margin-top: 48px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 16px 32px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
 }
