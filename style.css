@@ -157,43 +157,6 @@ header{
     background-color: #FF0000;
     color: white;
 }
-
-footer{
-    background-color: #070211;
-    background-size: cover;
-    height: 609px;
-    margin-top: 120px;
-    color: white;
-    font-size: 22px;
-    font-family: Inter;
-    font-weight: 200;
-    word-wrap: break-word;
-    
-}
-
-.contact{
-    margin: 0px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    word-wrap: break-word;
-}
-
-.contact1{
-    padding: 120px 550px 50px 140px;
-    text-align: left;
-    line-height: 40px;
-}
-
-.contact2{
-    padding: 120px 275px 50px 0px;
-    text-align: left;
-}
-
-.contact2 > h5 {
-    margin: 0px;
-}
-
 .newsletter{
 
     background-color: rgba(255, 0, 0, 0.05);
@@ -366,4 +329,71 @@ footer{
     object-fit: cover;
     border: #FF0000 solid 13px;
     border-radius: 50%;
+}
+
+footer{
+    background-color: #070211;
+    background-size: cover;
+    height: 609px;
+    margin-top: 120px;
+    color: white;
+}
+.footer{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.contact{
+    padding: 120px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+.contact1 > ul {
+    list-style: none;
+    padding-right: 130px;
+}
+.contact1 > ul > li {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contact1-icon{
+    padding-right: 16px;
+}
+hr{
+    margin: 0px;
+    border: 1px rgba(255, 255, 255, 0.15) solid;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    padding: 48px 0px 48px 0px;
+}
+.social-media > img {
+    padding-right: 24px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+}
+.copyright a:hover{
+    text-decoration: none;
+    color: #FF0000;
 }
