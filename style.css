@@ -1,5 +1,14 @@
-body{
+/* body{
     margin: 0 140px;
+} */
+
+header, main{
+    margin: 0 140px;
+}
+
+section{
+    margin-top: 120px;
+    border-radius: 16px;
 }
 
 header{
@@ -33,7 +42,6 @@ header{
 }
 
 .discount-content{
-    margin-top: 120px;
     display: block;
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -66,8 +74,6 @@ header{
     background-size: cover;
     height: 600px;
     display: flex;
-    margin-top: 120px;
-    border-radius: 16px;
 }
 
 .party-content{
@@ -151,3 +157,99 @@ header{
     background-color: #FF0000;
     color: white;
 }
+
+footer{
+    background-color: #070211;
+    background-size: cover;
+    height: 609px;
+    margin-top: 120px;
+    color: white;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+    
+}
+
+.contact{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.contact1{
+    padding: 120px 550px 50px 140px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.contact2{
+    padding: 120px 275px 50px 0px;
+    text-align: left;
+}
+
+.contact2 > h5 {
+    margin: 0px;
+}
+
+.newsletter{
+
+    background-color: rgba(255, 0, 0, 0.05);
+    height: 616px; 
+}
+
+.subscribe{
+    text-align: center; 
+    padding: 60px 0px 80px 0px;
+}
+
+.subscribe-title{
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 40px  0px 22px 0px;
+}
+
+.subscribe-details{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0px  0px 48px 0px;
+}
+
+
+.subscribe-input{
+    background-color: white;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    padding: 25px 267px 25px 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+}
+.subscribe-button{
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    padding: 24px 56px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+}
+
+.subscribe-button:hover{
+    background-color: #780000;
+}
+
